@@ -13,7 +13,10 @@
         android:id="@+id/instagram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="click me for instagram" />
+        android:text="click me for instagram"
+        android:textColorHighlight="#32FFFFFF"
+        android:textColorHint="#0CC3DA"
+        android:textColorLink="#731717" />
 
     <Button
         android:id="@+id/facebook"
