@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="DuplicateIds">
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me for instagram" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me for facebook" />
+
+    <Button
+        android:id="@+id/whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me for whatsapp " />
+
+</LinearLayout>
